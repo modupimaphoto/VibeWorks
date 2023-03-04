@@ -12,16 +12,32 @@
     margin: 10px;
     text-align: center;
     border-radius: 15px;
-    
+    cursor: pointer;
 }
 .img-responsive{
     width: 70%;
+}
+.bag{
+    float: right;
+    cursor: pointer;
+}
+.bag img{
+     width: 30px;
+}
+sup{
+    background-color:blueviolet;
+    border-radius: 10px;
+    padding: 0px;
+    text-transform: none;
+    color: white;
 }
 textarea{
     resize: none;
 }
 ul{
     list-style: none;
+    padding: 0;
+    
 }
 @media screen and (max-width: 990px) {
     .text-size{
