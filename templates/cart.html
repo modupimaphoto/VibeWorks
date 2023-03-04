@@ -14,17 +14,55 @@
     <section class="p-sm-5">
         <div class="container">
             <div class="row">
-                <div class="col-md-6">
-
-                </div>
-                <div class="col-md-6">
-                    <div>
-                        <form action="" method="post">
-                            <div class="form-group">
-                                <input type="text" name="" class="form-control" placeholder="Address line 1">
-                            </div>
-                        </form>
+                <div class="col-md-8 mb-4">
+                    <h5>Shopping Cart</h5>
+                    <hr>
+                    <div class="row border p-2 rounded cart-info">
+                        <div class="col-4">
+                            <img src="../images/preview-laptop.jpg">
+                        </div>
+                        <div class="col-4">
+                            <h6>Mac pro 23</h6>
+                            <p>R<span>20000.00</span></p>
+                            <button type="button" class="btn btn-danger btn-sm">Delete</button>
+                        </div>
+                        <div class="col-4">
+                            <input type="number" value="1" min="0" class="form-control">
+                        </div>
                     </div>
+                </div>
+                <di class="col-md-4">
+                    <h5>Summary</h5>
+                    <hr>
+                    <div class="text-uppercase">
+                        Items
+                        <span class="float-right">
+                            R<span>0.00</span>
+                        </span>
+                    </div>
+                    <div class="text-uppercase pt-2">
+                        Shipping
+                        <div class="form-group p-3">
+                            <select class="custom-select">
+                                <option value="standard delivery">Standard Delivery - R50</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="text-uppercase pt-3">
+                       Promo code
+                        <div class="form-group p-3">
+                            <input type="text" placeholder="Enter your code" class="form-control">
+                        </div>
+                        <button type="button" class="btn btn-danger text-uppercase">Apply</button>
+                    </div>
+                    <hr>
+                    <div class="text-uppercase">
+                        Total cost
+                        <span class="float-right">
+                            R<span>0.00</span>
+                        </span>
+                    </div>
+                    <button type="button" class="btn btn-primary text-uppercase mt-3  mb-3 w-100">Checkout</button>
                 </div>
             </div>
         </div>

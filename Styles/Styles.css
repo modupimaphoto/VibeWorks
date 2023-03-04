@@ -38,11 +38,17 @@ ul{
     padding: 0;
     
 }
+.cart-info img{
+    width: 80%;
+}
 @media screen and (max-width: 990px) {
     .text-size{
         font-size: 2.5em;
     }
     .img-responsive{
-    width: 100%;
-}
+        width: 100%;
+    }
+    .cart-info img{
+        width: 100%;
+    }
 }
