@@ -1,0 +1,33 @@
+.showcase{
+    background: url('images/bg-1.png') no-repeat;
+    background-size: cover;
+}
+.text-size{
+    font-size: 5em;
+}
+.btn-white{
+    padding: 10px;
+    background-color: white;
+    color: black;
+    margin: 10px;
+    text-align: center;
+    border-radius: 15px;
+    
+}
+.img-responsive{
+    width: 70%;
+}
+textarea{
+    resize: none;
+}
+ul{
+    list-style: none;
+}
+@media screen and (max-width: 768px) {
+    .text-size{
+        font-size: 2.5em;
+    }
+    .img-responsive{
+    width: 100%;
+}
+}
