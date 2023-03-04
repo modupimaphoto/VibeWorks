@@ -1,5 +1,5 @@
 .showcase{
-    background: url('images/bg-1.png') no-repeat;
+    background: url('../images/bg-1.png') no-repeat;
     background-size: cover;
 }
 .text-size{
