@@ -23,13 +23,6 @@
 .bag img{
      width: 30px;
 }
-sup{
-    background-color:blueviolet;
-    border-radius: 10px;
-    padding: 0px;
-    text-transform: none;
-    color: white;
-}
 textarea{
     resize: none;
 }
